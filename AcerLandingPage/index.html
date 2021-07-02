@@ -1,0 +1,104 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Harmattan&display=swap" rel="stylesheet">
+    
+
+
+</head>
+
+<body>
+
+
+    <nav>
+
+        <div class="image">
+            <img src="logo.png">
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+
+        </ul>
+
+        <div class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+
+    </nav>
+
+    
+
+    
+
+
+    <section>
+        <div class="cover-img">
+            <img src="laptop.jpg" alt="">
+        </div>
+
+        <div class="btn">
+            <button>Click me</button>
+            <button>Read more</button>
+        </div>
+    </section>
+
+    <div class="data">
+        <h1>Acer LXM13 i5</h1>
+        <p>We value your time so that you can value our trust</p>
+    </div>
+    <script>
+
+   window.onload=function(){
+    const burger=document.querySelector('.burger');
+    burger.addEventListener('click',()=>{ 
+        console.log('clicked');
+        const nav=document.querySelector('.nav-links');
+        nav.classList.toggle('active'); 
+
+   });
+
+     
+   }
+
+
+    </script>
+  
+</body>
+
+</html>
+
+<!-- <header>
+    <div class="company-name">
+        <h1>MORGAN</h1>
+    </div>
+  
+     <nav>
+        <div class="image">
+            <img src="logo.png" alt="">
+         </div>
+    
+    <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Services</a></li>
+    <li><a href="">Portfolio</a></li>
+    <li><a href="">Contact</a></li>
+   
+    
+
+    </ul>
+   </nav>
+  </header> -->
